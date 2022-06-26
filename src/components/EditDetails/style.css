@@ -1,0 +1,36 @@
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header {
+  font-size: 30px;
+}
+
+.detailsForm {
+  font-size: 16px;
+}
+
+.detailsForm .input-div {
+  margin: 10px;
+}
+
+.detailsForm .label {
+  display: inline-block;
+  width: 140px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions button {
+  cursor: pointer;
+  padding: 0.5rem 2rem;
+  margin-left: 1rem;
+}
